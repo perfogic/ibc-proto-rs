@@ -49,7 +49,7 @@ borsh = {version = "0.10", default-features = false, optional = true}
 [dependencies.tendermint-proto]
 default-features = false
 git = "https://github.com/perfogic/tendermint-rs"
-rev = "9736b1e9331246dd12d94348b48a048d36754e2d"
+rev = "d8796bad65439bbd9b40d4dadecfbe748ea79bc9"
 
 [features]
 borsh = ["dep:borsh"]
